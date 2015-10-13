@@ -1,0 +1,21 @@
+table.collection {
+	border-collapse: collapse;
+}
+
+.collection th {
+	background-color: lightgray;
+}
+
+.collection td {
+	border: 1px dotted gray;
+	padding: 3px;
+}
+
+.kkjs-table-select, .kkjs-table-filter, .kkjs-table-sortControls {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
