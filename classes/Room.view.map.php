@@ -20,7 +20,7 @@
 	<ul class="storages">
 		<?php
 			$storageDisplays = array();
-			$markedStorage = array_read_key("storage", $args, false);
+			$markedStorage = $args && is_array($args)? array_read_key("storage", $args, false): false;
 			foreach ($this->storages as $storage){
 				$foundDisplayIdx = false;
 				foreach ($storageDisplays as $i => $display){
