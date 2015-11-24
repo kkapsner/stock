@@ -1,6 +1,6 @@
-<a href="http://www.unece.org/trans/danger/publi/ghs/ghs_rev05/05files_e.html"><img height="60" src="<?php
+<a href="http://www.unece.org/trans/danger/publi/ghs/ghs_rev05/05files_e.html"><?php
 
-/* @var $this hemicalClassification */
-echo $this->html($this->pictogram);
+/* @var $this ChemicalClassification */
+$this->view("img", true);
 
-?>"></a>
+?></a>

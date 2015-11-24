@@ -20,6 +20,23 @@ img.DBItemFieldFileItem {
 	max-height: 200px;
 }
 
-.dbItem input, .dbItem select, .dbItem textarea {
+.dbItem input[type=text], .dbItem select, .dbItem textarea {
 	width: 100%;
+}
+
+.classifications label{
+	overflow: hidden;
+}
+.classifications label input[type=checkbox]{
+	position: absolute;
+	bottom: 100%;
+	right: 100%;
+}
+
+.classifications label input[type=checkbox] + img{
+	opacity: 0.2;
+}
+
+.classifications label input[type=checkbox]:checked + img{
+	opacity: 1;
 }
